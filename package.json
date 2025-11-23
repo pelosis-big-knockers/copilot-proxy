@@ -1,0 +1,18 @@
+{
+  "name": "copilot-proxy",
+  "version": "1.0.0",
+  "description": "copilot-proxy-server",
+  "license": "ISC",
+  "author": "pelosis-big-knockers",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "copilot-proxy": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "minimatch": "^10.1.1"
+  }
+}
