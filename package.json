@@ -5,14 +5,16 @@
   "license": "ISC",
   "author": "pelosis-big-knockers",
   "type": "module",
-  "main": "index.js",
+  "main": "index.ts",
   "bin": {
-    "copilot-proxy": "./index.js"
+    "copilot-proxy": "./index.ts"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.ts"
   },
   "dependencies": {
+    "@types/node": "^25.0.3",
+    "json5": "^2.2.3",
     "minimatch": "^10.1.1"
   }
 }
